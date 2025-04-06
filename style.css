@@ -159,4 +159,32 @@ main{
     }
 }
 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    display: none;
+}
+
+@media(min-width: 920px){
+
+    header{
+        margin-top: 5rem;
+    }
+
+    main{
+        display: flex;
+        max-width: 92rem;
+        margin-inline: auto;
+        border-radius: 2.5rem;
+        padding: 4.8rem;
+        gap: 4.8rem;
+
+        section{
+            width: 100%;
+        }
+
+        .info .tip div{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
 
